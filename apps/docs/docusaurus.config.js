@@ -57,8 +57,8 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'E-Mail List',
+              href: 'https://nxshell.substack.com/',
             },
             {
               label: 'Twitter',

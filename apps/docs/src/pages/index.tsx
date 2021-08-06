@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import GitHubButton from 'react-github-btn';
 
 const features = [
   {
@@ -98,7 +99,7 @@ function Home() {
           <iframe
             src="https://nxshell.substack.com/embed"
             width="100%"
-            height="320"
+            height="520"
             scrolling="no"
             frameBorder="0"
           ></iframe>
@@ -107,12 +108,25 @@ function Home() {
               position: 'absolute',
               bottom: '0px',
               right: '0px',
-              width: '100px',
+              width: '200px',
               height: '100px',
               backgroundColor: 'white',
             }}
           ></div>
         </div>
+      </section>
+
+      <section>
+        <GitHubButton
+          href="https://github.com/nx-shell/core"
+          data-color-scheme="no-preference: light; light: light; dark: dark_dimmed;"
+          data-icon="octicon-star"
+          data-size="large"
+          data-show-count="true"
+          aria-label="Star nx-shell/core on GitHub"
+        >
+          Star
+        </GitHubButton>
       </section>
     </Layout>
   );
