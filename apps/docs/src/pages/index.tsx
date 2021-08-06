@@ -55,6 +55,22 @@ function Feature({ imageUrl, title, description }) {
   );
 }
 
+function KeyVisual() {
+  const imgUrl = useBaseUrl('gif/nx-shell-key-visual.gif');
+  return (
+    <div>
+      <center>
+        <img
+          width="auto"
+          height="auto"
+          style={{ maxHeight: '500px', borderRadius: '24px' }}
+          src={imgUrl}
+        />
+      </center>
+    </div>
+  );
+}
+
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
@@ -64,22 +80,24 @@ function Home() {
       description="A shell for your Nx monorepo"
     >
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted
-              )}
-              to={useBaseUrl('docs/')}
-            >
-              Get Started
-            </Link>
+        <div className="row">
+          <div className="col col--5">
+            <div className="container">
+              <h1 className="hero__title">{siteConfig.title}</h1>
+              <p className="hero__subtitle">{siteConfig.tagline}</p>
+            </div>
+          </div>
+
+          <div className="col col--7">
+            <KeyVisual></KeyVisual>
           </div>
         </div>
       </header>
+
+      <section>
+        <div className="container"></div>
+      </section>
+
       <main>
         {features && features.length > 0 && (
           <section className={styles.features}>
@@ -127,6 +145,14 @@ function Home() {
         >
           Star
         </GitHubButton>
+
+        <a
+          href="https://twitter.com/nx_shell?ref_src=twsrc%5Etfw"
+          className="twitter-follow-button"
+          data-show-count="false"
+        >
+          Follow @nx_shell
+        </a>
       </section>
     </Layout>
   );
