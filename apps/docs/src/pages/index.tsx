@@ -92,6 +92,28 @@ function Home() {
           </section>
         )}
       </main>
+
+      <section>
+        <div style={{ position: 'relative' }}>
+          <iframe
+            src="https://nxshell.substack.com/embed"
+            width="100%"
+            height="320"
+            scrolling="no"
+            frameBorder="0"
+          ></iframe>
+          <div
+            style={{
+              position: 'absolute',
+              bottom: '0px',
+              right: '0px',
+              width: '100px',
+              height: '100px',
+              backgroundColor: 'white',
+            }}
+          ></div>
+        </div>
+      </section>
     </Layout>
   );
 }

@@ -1,6 +1,7 @@
 module.exports = {
   title: 'Nx Shell',
-  tagline: 'Create an interactive shell for your Nx monorepo with the technologies you already know and use.',
+  tagline:
+    'Create an interactive shell for your Nx monorepo with the technologies you already know and use.',
   url: 'https://nxshell.dev',
   baseUrl: '/',
   trailingSlash: true,
@@ -11,7 +12,7 @@ module.exports = {
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
     colorMode: {
-      disableSwitch: true
+      disableSwitch: true,
     },
     navbar: {
       title: 'Nx Shell',
