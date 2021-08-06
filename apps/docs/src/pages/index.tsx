@@ -9,7 +9,7 @@ import GitHubButton from 'react-github-btn';
 
 const features = [
   {
-    title: 'Easy to us',
+    title: 'Interactive or classic',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
@@ -113,6 +113,88 @@ function Home() {
       </main>
 
       <section>
+        <div className="container">
+          <div
+            className="row"
+            style={{
+              maxWidth: 'max(60vw, 500px)',
+              margin: 'auto',
+              boxShadow: '2rem 2rem 5rem rgba(0, 0, 0, 0.1)',
+              padding: '24px',
+              marginTop: '24px',
+              marginBottom: '120px',
+              borderRadius: '24px',
+              fontSize: '20px',
+              lineHeight: '35px',
+            }}
+          >
+            <p>Hey everyone,</p>
+            <p>
+              I'm Ben, a TypeScript & Nx enthusiast from Germany. I've been
+              using Nx pretty much from its beginnings to build a large and
+              complex SaaS application (we have over 1200 libraries at this
+              point). I quickly realized that Nx is the perfect baseline for
+              building cool workspace tooling and automations on top, because
+              everything is well-structured and formalized via the
+              workspace.json/ angular.json.
+            </p>
+            <p>
+              I caught myself typing the same terminal commands with the same
+              flags over and over again each day, often having typos or
+              forgetting parameter names altogether, which left me searching
+              through my bash history a lot. Even worse, my colleagues who were
+              not so familiar with the tooling had to often ask for my help to
+              get things done.
+            </p>
+            <p>
+              So the greatest impact my work could have on my daily engineering
+              life as well as that of my colleagues was to provide a super
+              simple, inclusive and maintainable way to get my knowledge about
+              our workspace and tooling into the repository somehow. That's how
+              Nx shell was born.
+            </p>
+            <p>
+              Every developer should be able to write custom commands in his
+              area of expertise in the language they are already familiar with
+              (TypeScript), instead of being limited to bash scripts or
+              introducing another tool chain for e.g., executing Python. This
+              way, every developer benefits from the knowledge of each other
+              developer and can perform all sorts of tasks without having to
+              know each detail of the process (e.g., deploying a new version,
+              creating a database in AWS, ...).
+            </p>
+            <p>
+              Anyways, here's the vision for this open-source project: build
+              your own tooling to make your terminal life easier each day! You
+              are probably wondering why there are many videos of a working Nx
+              shell version, but no source-code yet. This is because I learned
+              the hard way that one should first see whether an idea generates
+              any interest before diving into the coding. Many times nobody
+              cares about your idea or understands it, even though you think
+              it's super cool. I already have hundres of thousands of lines of
+              code sitting there for the current version of Nx shell, but it
+              would be a lot of work to make that code portable, split it up
+              into multiple plugin packages on npm, establish contribution
+              guidelines and so on. So this page is my way to find out whether
+              enough of you Nrwlians out there care enough for Nx shell to exist
+              in the world, otherwise it's probably not worth putting in the
+              time. You can show your support by leaving a GitHub star, a follow
+              on Twitter or your e-mail address, whatever you are most
+              comfortable with. Once enough people show their interest, I will
+              be more than happy to dedicate my free time to migrate the
+              existing code into the open-source project.
+            </p>
+
+            <p>
+              Yours truly,
+              <br />
+              Ben
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
         <div style={{ position: 'relative' }}>
           <iframe
             src="https://nxshell.substack.com/embed"
@@ -132,27 +214,6 @@ function Home() {
             }}
           ></div>
         </div>
-      </section>
-
-      <section>
-        <GitHubButton
-          href="https://github.com/nx-shell/core"
-          data-color-scheme="no-preference: light; light: light; dark: dark_dimmed;"
-          data-icon="octicon-star"
-          data-size="large"
-          data-show-count="true"
-          aria-label="Star nx-shell/core on GitHub"
-        >
-          Star
-        </GitHubButton>
-
-        <a
-          href="https://twitter.com/nx_shell?ref_src=twsrc%5Etfw"
-          className="twitter-follow-button"
-          data-show-count="false"
-        >
-          Follow @nx_shell
-        </a>
       </section>
     </Layout>
   );

@@ -10,13 +10,6 @@ module.exports = {
   favicon: 'img/favicon.svg',
   organizationName: 'nx-shell', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
-  scripts: [
-    {
-      src: 'https://platform.twitter.com/widgets.js',
-      async: true,
-      defer: true,
-    },
-  ],
   themeConfig: {
     colorMode: {
       disableSwitch: true,
