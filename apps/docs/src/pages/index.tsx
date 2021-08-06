@@ -84,7 +84,12 @@ function Home() {
           <div className="col col--5">
             <div className="container">
               <h1 className="hero__title">{siteConfig.title}</h1>
-              <p className="hero__subtitle">{siteConfig.tagline}</p>
+              <p
+                className="hero__subtitle"
+                style={{ fontWeight: 600, fontSize: '26px' }}
+              >
+                {siteConfig.tagline}
+              </p>
             </div>
           </div>
 
@@ -113,24 +118,23 @@ function Home() {
       </main>
 
       <section>
-        <div className="container">
-          <div
-            className="row"
-            style={{
-              maxWidth: 'max(60vw, 500px)',
-              margin: 'auto',
-              boxShadow: '2rem 2rem 5rem rgba(0, 0, 0, 0.1)',
-              padding: '24px',
-              marginTop: '24px',
-              marginBottom: '120px',
-              borderRadius: '24px',
-              fontSize: '20px',
-              lineHeight: '35px',
-            }}
-          >
+        <div
+          className="container"
+          style={{
+            maxWidth: 'max(60vw, 500px)',
+            margin: 'auto',
+            boxShadow: '2rem 2rem 5rem rgba(0, 0, 0, 0.15)',
+            marginTop: '24px',
+            marginBottom: '120px',
+            borderRadius: '24px',
+            fontSize: '20px',
+            lineHeight: '35px',
+          }}
+        >
+          <div className="row" style={{ padding: '36px' }}>
             <p>Hey everyone,</p>
             <p>
-              I'm Ben, a TypeScript & Nx enthusiast from Germany. I've been
+              I'm Ben, a TypeScript &#38; Nx enthusiast from Germany. I've been
               using Nx pretty much from its beginnings to build a large and
               complex SaaS application (we have over 1200 libraries at this
               point). I quickly realized that Nx is the perfect baseline for
@@ -191,11 +195,27 @@ function Home() {
               Ben
             </p>
           </div>
+
+          <div
+            className="row"
+            style={{ paddingLeft: '36px', paddingBottom: '36px' }}
+          >
+            <div className="avatar">
+              <img
+                className="avatar__photo avatar__photo--xl"
+                src={useBaseUrl('/img/profile_500px.jpg')}
+              />
+              <div className="avatar__intro">
+                <div className="avatar__name">Ben</div>
+                <small className="avatar__subtitle">Nrwlian</small>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       <section>
-        <div style={{ position: 'relative' }}>
+        <div style={{ position: 'relative', marginTop: '-100px', zIndex: -1 }}>
           <iframe
             src="https://nxshell.substack.com/embed"
             width="100%"
