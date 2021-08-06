@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
   organizationName: 'nx-shell', // Usually your GitHub org/user name.
   projectName: 'nxshell', // Usually your repo name.
   themeConfig: {
@@ -19,6 +19,8 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
+        { to: 'blog', label: 'Get started', position: 'left' },
+        { to: 'blog', label: 'Features', position: 'left' },
         {
           to: 'docs/',
           activeBasePath: 'docs',
