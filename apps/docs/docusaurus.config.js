@@ -3,11 +3,12 @@ module.exports = {
   tagline: 'Create an interactive shell for your Nx monorepo with the technologies you already know and use.',
   url: 'https://nxshell.dev',
   baseUrl: '/',
+  trailingSlash: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.svg',
   organizationName: 'nx-shell', // Usually your GitHub org/user name.
-  projectName: 'nxshell', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
   themeConfig: {
     colorMode: {
       disableSwitch: true
