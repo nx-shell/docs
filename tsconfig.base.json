@@ -16,5 +16,6 @@
     "baseUrl": ".",
     "paths": {}
   },
+  "extends": "@tsconfig/docusaurus/tsconfig.json",
   "exclude": ["node_modules", "tmp"]
 }

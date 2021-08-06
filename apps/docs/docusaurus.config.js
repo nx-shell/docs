@@ -9,6 +9,9 @@ module.exports = {
   organizationName: 'nx-shell', // Usually your GitHub org/user name.
   projectName: 'nxshell', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      disableSwitch: true
+    },
     navbar: {
       title: 'Nx Shell',
       logo: {
@@ -24,7 +27,7 @@ module.exports = {
         },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/nx-shell',
           label: 'GitHub',
           position: 'right',
         },
@@ -50,16 +53,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
               href: 'https://discordapp.com/invite/docusaurus',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/nx_shell',
             },
           ],
         },
@@ -72,7 +71,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/nx-shell',
             },
           ],
         },
