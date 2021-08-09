@@ -14,7 +14,7 @@ module.exports = {
   themeConfig: {
     matomo: {
       matomoUrl: 'https://metrics.nxshell.dev',
-      siteId: 'ID',
+      siteId: '1',
     },
     colorMode: {
       disableSwitch: true,

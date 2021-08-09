@@ -33,7 +33,7 @@ services:
       - matomo:/var/www/html:ro
       - ./matomo.conf:/etc/nginx/conf.d/default.conf:ro
     ports:
-      - 8080:80
+      - 80:80
 
 volumes:
   db:
