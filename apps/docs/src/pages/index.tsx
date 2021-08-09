@@ -9,32 +9,36 @@ import GitHubButton from 'react-github-btn';
 
 const features = [
   {
-    title: 'Interactive or classic',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Dozen of Commands out of the Box',
+    imageUrl: 'img/graphic-1.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Instant access to dozen of useful commands. From simple tasks like
+        running an application in serve mode to linting the cognitive complexity
+        of your code, all automatically integrated and tailored to your
+        repository and technology stack.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Write your own CLI Commands',
+    imageUrl: 'img/graphic-2.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Enough with hacky bash script - write clean TypeScript code for your
+        custom CLI commands and re-use existing building blocks via dependency
+        injection.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Ready for Automation',
+    imageUrl: 'img/graphic-4.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Every command can be executed interactive or non-interactive. This way
+        the same commands can be used inside a CI/CD environment with convenient
+        to access environment variables, parameters and flags.
       </>
     ),
   },
@@ -169,24 +173,24 @@ function Home() {
             </p>
             <p>
               Anyways, here's the vision for this open-source project: build
-              your own tooling to make your terminal life easier each day! You
-              are probably wondering why there are many videos of a working Nx
-              shell version, but no source-code yet. This is because I learned
-              the hard way that one should first see whether an idea generates
-              any interest before diving into the coding. Many times nobody
-              cares about your idea or understands it, even though you think
-              it's super cool. I already have hundres of thousands of lines of
-              code sitting there for the current version of Nx shell, but it
-              would be a lot of work to make that code portable, split it up
-              into multiple plugin packages on npm, establish contribution
-              guidelines and so on. So this page is my way to find out whether
-              enough of you Nrwlians out there care enough for Nx shell to exist
-              in the world, otherwise it's probably not worth putting in the
-              time. You can show your support by leaving a GitHub star, a follow
-              on Twitter or your e-mail address, whatever you are most
-              comfortable with. Once enough people show their interest, I will
-              be more than happy to dedicate my free time to migrate the
-              existing code into the open-source project.
+              your own CLI to make your terminal life easier each day! You are
+              probably wondering why there are many videos of a working Nx shell
+              version, but no source-code yet. This is because I learned the
+              hard way that one should first see whether an idea generates any
+              interest before diving into the code. Many times nobody cares
+              about your idea or understands it, even though you think it's
+              super cool. I already have hundres of thousands of lines of code
+              sitting there for the current version of Nx shell, but it would be
+              a lot of work to make that code portable, split it up into
+              multiple plugin packages on npm, establish contribution guidelines
+              and so on. So this page is my way to find out whether enough of
+              you Nrwlians out there care enough for Nx shell to exist in the
+              world, otherwise it's probably not worth putting in the time. You
+              can show your support by leaving a GitHub star, a follow on
+              Twitter or your e-mail address, whatever you are most comfortable
+              with. Once enough people show their interest, I will be more than
+              happy to dedicate my free time to migrate the existing code into
+              the open-source project.
             </p>
 
             <p>

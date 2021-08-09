@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Nx Shell',
   tagline:
-    'Create an interactive shell for your Nx monorepo with the technologies you already know and use.',
+    'Create an interactive CLI for your Nx monorepo with the technologies you already know and use.',
   url: 'https://nxshell.dev',
   baseUrl: '/',
   trailingSlash: true,
