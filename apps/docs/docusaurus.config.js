@@ -10,7 +10,12 @@ module.exports = {
   favicon: 'img/favicon.svg',
   organizationName: 'nx-shell', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
+  plugins: ['docusaurus-plugin-matomo'],
   themeConfig: {
+    matomo: {
+      matomoUrl: 'https://metrics.nxshell.dev',
+      siteId: 'ID',
+    },
     colorMode: {
       disableSwitch: true,
     },
