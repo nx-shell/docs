@@ -13,7 +13,7 @@ module.exports = {
   plugins: ['docusaurus-plugin-matomo'],
   themeConfig: {
     matomo: {
-      matomoUrl: 'https://metrics.nxshell.dev',
+      matomoUrl: 'https://metrics.nxshell.dev/',
       siteId: '1',
     },
     colorMode: {
