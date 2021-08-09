@@ -21,6 +21,7 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
+        /**
         { to: 'blog', label: 'Get started', position: 'left' },
         { to: 'blog', label: 'Features', position: 'left' },
         {
@@ -34,7 +35,7 @@ module.exports = {
           href: 'https://github.com/nx-shell',
           label: 'GitHub',
           position: 'right',
-        },
+        }, */
       ],
     },
     footer: {
