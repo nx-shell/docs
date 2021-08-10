@@ -33,15 +33,15 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
-        { to: 'features', label: 'Features', position: 'left' },
-        /**
-        { to: 'blog', label: 'Get started', position: 'left' },
         {
           to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
+        { to: 'features', label: 'Features', position: 'left' },
+        /**
+        { to: 'blog', label: 'Get started', position: 'left' },
         { to: 'blog', label: 'Blog', position: 'left' },
         */
         {
@@ -81,6 +81,23 @@ module.exports = {
             {
               label: 'Twitter',
               href: 'https://twitter.com/nx_shell',
+            },
+          ],
+        },
+        {
+          title: 'Support Us',
+          items: [
+            {
+              label: 'Donate 1€',
+              href: 'https://buy.stripe.com/dR6aFM7s61vY32oeUU',
+            },
+            {
+              label: 'Donate 2€',
+              href: 'https://buy.stripe.com/28o4hocMq2A21Yk145',
+            },
+            {
+              label: 'Donate 5€',
+              href: 'https://buy.stripe.com/8wM15c9AecaC46s7su',
             },
           ],
         },
