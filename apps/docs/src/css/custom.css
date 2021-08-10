@@ -29,6 +29,10 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
+.footer__copyright {
+  margin-top: 64px;
+}
+
 .DocSearch {
   --docsearch-primary-color: var(--ifm-color-primary) !important;
   --docsearch-text-color: var(--ifm-font-color-primary) !important;

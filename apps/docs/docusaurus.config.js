@@ -33,6 +33,7 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
+        /**
         {
           to: 'docs/',
           activeBasePath: 'docs',
@@ -40,7 +41,7 @@ module.exports = {
           position: 'left',
         },
         { to: 'features', label: 'Features', position: 'left' },
-        /**
+        
         { to: 'blog', label: 'Get started', position: 'left' },
         { to: 'blog', label: 'Blog', position: 'left' },
         */
@@ -54,15 +55,24 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
+        /**
         {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'Get started',
+              to: '/',
+            },
+            {
+              label: 'Write a command',
+              to: '/',
+            },
+            {
+              label: 'Framework API',
+              to: '/',
             },
           ],
-        },
+        }, */
         {
           title: 'Community',
           items: [
@@ -97,8 +107,25 @@ module.exports = {
             },
           ],
         },
+        {
+          title: 'Legal',
+          items: [
+            {
+              label: 'Terms',
+              href: '/terms-of-use',
+            },
+            {
+              label: 'Legal Notice',
+              href: '/legal-note',
+            },
+            {
+              label: 'Data Policy',
+              href: '/privacy',
+            },
+          ],
+        },
       ],
-      //copyright: `© ${new Date().getFullYear()}`,
+      copyright: `\n\nnxshell.dev © ${new Date().getFullYear()}`,
     },
   },
   presets: [
