@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[53],{2140:e=>{e.exports=JSON.parse('{"pluginId":"default","version":"current","label":"Next","banner":"none","isLast":true,"docsSidebars":{"someSidebar":[{"type":"category","collapsed":true,"collapsible":true,"label":"Docusaurus","items":[{"type":"link","label":"Style Guide","href":"/docs/"}]}]}}')}}]);
