@@ -10,6 +10,7 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #143157;
+  --ifm-footer-link-hover-color: #ffffff;
   --ifm-font-color-base: rgb(53, 55, 56);
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);

@@ -63,6 +63,10 @@ module.exports = {
           title: 'Community',
           items: [
             {
+              label: 'GitHub',
+              href: 'https://github.com/nx-shell',
+            },
+            {
               label: 'E-Mail List',
               href: 'https://nxshell.substack.com/',
             },
@@ -72,21 +76,8 @@ module.exports = {
             },
           ],
         },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/nx-shell',
-            },
-          ],
-        },
       ],
-      copyright: `© ${new Date().getFullYear()}`,
+      //copyright: `© ${new Date().getFullYear()}`,
     },
   },
   presets: [
@@ -95,15 +86,11 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: 'https://github.com/nx-shell/docs/edit/main/website/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          editUrl: 'https://github.com/nx-shell/docs/edit/main/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

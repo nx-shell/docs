@@ -210,7 +210,11 @@ function Home() {
                 src={useBaseUrl('/img/profile_500px.jpg')}
               />
               <div className="avatar__intro">
-                <div className="avatar__name">Ben</div>
+                <div className="avatar__name">
+                  <a href="https://twitter.com/derbenoo" target="_blank">
+                    Ben
+                  </a>
+                </div>
                 <small className="avatar__subtitle">Nrwlian</small>
               </div>
             </div>
