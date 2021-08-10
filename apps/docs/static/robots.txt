@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://nxshell.dev
+
+# Sitemaps
+Sitemap: https://nxshell.dev/sitemap.xml
