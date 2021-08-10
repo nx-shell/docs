@@ -16,6 +16,13 @@ module.exports = {
       matomoUrl: 'https://metrics.nxshell.dev/',
       siteId: '1',
     },
+    algolia: {
+      apiKey: '8d3f37b06edf4b29f7baf3bad14b536b',
+      indexName: 'dev_nxshell',
+      contextualSearch: true,
+      appId: 'WNU94UHB46',
+      searchParameters: {},
+    },
     colorMode: {
       disableSwitch: true,
     },
@@ -26,9 +33,9 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
+        { to: 'features', label: 'Features', position: 'left' },
         /**
         { to: 'blog', label: 'Get started', position: 'left' },
-        { to: 'blog', label: 'Features', position: 'left' },
         {
           to: 'docs/',
           activeBasePath: 'docs',
@@ -36,11 +43,12 @@ module.exports = {
           position: 'left',
         },
         { to: 'blog', label: 'Blog', position: 'left' },
+        */
         {
           href: 'https://github.com/nx-shell',
           label: 'GitHub',
           position: 'right',
-        }, */
+        },
       ],
     },
     footer: {

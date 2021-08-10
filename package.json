@@ -38,6 +38,7 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^2.0.0-beta.4",
+    "@docusaurus/theme-search-algolia": "^2.0.0-beta.4",
     "@nrwl/cli": "12.6.5",
     "@nrwl/nx-cloud": "latest",
     "@nrwl/tao": "12.6.5",
