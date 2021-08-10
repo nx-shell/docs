@@ -80,8 +80,8 @@ function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description="A shell for your Nx monorepo"
+      title="A CLI for your Nx monorepo"
+      description="Build your own interactive Nx workspace CLI with the technologies you already know and use"
     >
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="row">
